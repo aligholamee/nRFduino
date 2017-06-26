@@ -29,6 +29,10 @@ void setup() {
   // Retry Every 15 * 250ms = 3750 miliseconds
   // Times to Retry = 15
   radio.setRetries(15,15);
+
+  // Create a pipe on the address 00001
+  radio.openWritingPipe(rxAddr);
+  
   
 
 }
