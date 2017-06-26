@@ -10,6 +10,9 @@
 * ========================================
 */
 
+#include <SPI.h> // Handles communication interface with the modem
+#include <nRF24L01.h> // Handles nRF24
+#include <RF24.h> // Some other controls over radio
 
 void setup() {
   // put your setup code here, to run once:
