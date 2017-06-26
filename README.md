@@ -13,4 +13,4 @@ There is nothing more than a complete communication between two **nrf** modules 
 Sure! Wise pull requests will be accepted.
 ## How to set everything up?
 Please take a look at the following page for schematics:
-![http://starter-kit.nettigo.eu]http://starter-kit.nettigo.eu/2014/connecting-and-programming-nrf24l01-with-arduino-and-other-boards/
+http://starter-kit.nettigo.eu/2014/connecting-and-programming-nrf24l01-with-arduino-and-other-boards/
