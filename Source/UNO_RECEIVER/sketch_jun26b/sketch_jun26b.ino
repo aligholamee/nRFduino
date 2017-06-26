@@ -32,6 +32,13 @@ void setup() {
   // Set the bps for USB
   Serial.begin(9600);
 
+  // Activate the modem and create the reading pipe
+  radio.begin();
+  // Stream number is 0
+  radio.openReadingPipe(0, rxAddr);
+
+  // Listen
+  radio.startListening();
 }
 
 void loop() {
