@@ -11,4 +11,6 @@ Just hit the **download** button and copy the contents of the library folder to 
 There is nothing more than a complete communication between two **nrf** modules using arduino **UNO**. I'll try to add more examples on using this amazing board.
 ## Can i contribute?
 Sure! Wise pull requests will be accepted.
-
+## How to set everything up?
+Please take a look at the following page for schematics:
+![http://starter-kit.nettigo.eu]http://starter-kit.nettigo.eu/2014/connecting-and-programming-nrf24l01-with-arduino-and-other-boards/
