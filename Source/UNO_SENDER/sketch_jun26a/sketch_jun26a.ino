@@ -32,9 +32,9 @@ void setup() {
 
   // Create a pipe on the address 00001
   radio.openWritingPipe(rxAddr);
-  
-  
 
+  // Switch to transmission mode
+  radio.stopListening();
 }
 
 void loop() {
