@@ -14,6 +14,11 @@
 #include <nRF24L01.h> // Handles nRF24
 #include <RF24.h> // Some other controls over radio
 
+// RF24 Object
+// Represents a modem connected to the UNO
+// 7: CE Signal Port
+// 8: CSN Signal Port
+RF24 radio(7,8)
 void setup() {
   // put your setup code here, to run once:
 
