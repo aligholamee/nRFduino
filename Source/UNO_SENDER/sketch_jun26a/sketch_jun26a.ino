@@ -18,7 +18,11 @@
 // Represents a modem connected to the UNO
 // 7: CE Signal Port
 // 8: CSN Signal Port
-RF24 radio(7,8)
+RF24 radio(7,8);
+
+// Receiver Address
+const byte rxAddr[6] = "00001";
+
 void setup() {
   // put your setup code here, to run once:
 
