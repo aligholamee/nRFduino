@@ -42,6 +42,14 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // Check whether the object is available or not
+  if(radio.available())
+  {
+    char text[32] = {0};
+    // Read the data
+    radio.read(&text,sizeof(text));
 
+    // Pass the data through the Serial Communication (USB)
+    Serial.println(text);
+  }
 }
