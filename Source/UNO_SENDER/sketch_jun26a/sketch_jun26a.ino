@@ -39,5 +39,12 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  // Create a hello world array
+  const char text[] = "Hello World";
 
+  // Write data to the radio object
+  // This will be blocked when retries hit
+  radio.write(&text,sizeof(text));
+
+  delay(1000);
 }
