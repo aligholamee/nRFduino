@@ -24,7 +24,12 @@ RF24 radio(7,8);
 const byte rxAddr[6] = "00001";
 
 void setup() {
-  // put your setup code here, to run once:
+  // Activate The Modem
+  radio.begin();
+  // Retry Every 15 * 250ms = 3750 miliseconds
+  // Times to Retry = 15
+  radio.setRetries(15,15);
+  
 
 }
 
