@@ -14,3 +14,5 @@ Sure! Wise pull requests will be accepted.
 ## How to set everything up?
 Please take a look at the following page for schematics:
 http://starter-kit.nettigo.eu/2014/connecting-and-programming-nrf24l01-with-arduino-and-other-boards/
+Please keep in mind that if you are using linux to set your Arduino up, you need to follow the instructions down below:
+https://www.arduino.cc/en/Guide/Linux#toc9
